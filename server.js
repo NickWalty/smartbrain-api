@@ -51,7 +51,7 @@ app.use(cors());
 // }
 
 
-app.get('/', (req,res) => {res.send(database.users);});
+app.get('/', (req,res) => {res.send('It is working!')})
 
 //Use the DB to test login
 app.post('/signIn', (req, res) => {signIn.handleSignIn(req, res, db, bcrypt)})
