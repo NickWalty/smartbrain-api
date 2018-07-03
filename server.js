@@ -68,5 +68,5 @@ app.post('/imageurl', (req,res) => {image.handleAPICall(req, res)})
 
 //Does it compile???
 app.listen(process.env.PORT || 3000, () => {
-	console.log(`app is now running on port ${process.env.PORT}.``);
+	console.log(`app is now running on port ${process.env.PORT}.`);
 })
